@@ -1,0 +1,31 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    border: 1px solid red;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: blanchedalmond;
+}
+
+p {
+    color: blue;
+    font-size: 1.2rem;
+}
+
+button {
+    outline: none;
+    background-color: black;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.outer-container{
+    padding: 10px;
+}
+
+.top-bar p {
+    float: right;
+}
