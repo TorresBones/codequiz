@@ -1,59 +1,156 @@
 * {
-    margin: 10px;
-    padding: 0%;
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    background-color: rgb(235, 235, 188);
 }
 
-body {
-    background-color: rgba(0, 0, 255, 0.695);
-}
-
-.big-box {
-    border: 2px solid black;
-    border-color: black;
-    border-radius: 1px;
-    border-spacing: 1px;
-}
-
-nav {
-    border: 5px solid black;  
-}
-
-nav button {
-    float: left;
-}
-
-nav #timer {
-    float: right;
-}
-
-#start-page {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+main {
     text-align: center;
-    margin-top: 20%;
-    padding: 10px;
+    justify-content: center;
+    flex: 1 0 auto;
+    margin-left: 200px;
+    margin-right: 200px;
+    min-height: 90vh;
 }
 
-#start-page h1 {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 2.2rem;
-    border-bottom: 5px solid black;
+main h1 {
+    font-size: 50px;
+}
+
+#timer {
+    display: flex;
+    text-align: right;
+    font-family: cursive;
+    font-weight: 400;
+    margin: 10px;
+    margin-bottom: 60px;
+}
+
+main p {
+    font-size: 20px;
+    margin:80px;
+}
+
+.ask-question {
+    font-family: cursive;
+    font-size: 40px;
+}
+
+h1, h2 {
+    text-align: center;
+    justify-content: center;
+    margin: 200px 200px;
+}
+
+.start-quiz {
+    font-size: 25px;
+    size: 15px;
+    color:black;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.start-quiz:hover {
+    background-color: aquamarine;
+}
+
+li {
+    color: black;
+    margin: 5px 5px;
     
 }
 
-#quiz {
-    padding: 20% 0;
+.choices {
+    font-family: cursive;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 5px;
 }
 
-#quiz h2 {
-    text-align: center;
+.choices:hover{
+    background-color: aquamarine;
+}
+
+.view-highscores {
+    float: left;
+    font-family: cursive;
+    cursor: pointer;
+}
+
+.view-highscores:hover {
+    background-color: aquamarine;
+}
+
+#submit-page h2 {
+    font-family: cursive;
+    font-size: 40px;
+}
+
+input {
+    border: 3px solid black;
+    background-color: #f9f9f9;
+    padding: 10px;
     color: black;
-    font-weight: 600;
-    border-bottom: 1px solid black;
-    padding-bottom: 30px;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 40px;
+  }
+
+  .submit-btn {
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+    margin-bottom: 40px;
+  }
+
+  .submit-btn:hover {
+    background-color: aquamarine;
+  }
+
+.page-container h2, .page-container, .page-container ul {
+    text-align: center;
+    align-items: center;
+    list-style: none;
+    
 }
 
-button:hover {
-background: blue;
-color: white;
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px; 
+}
+
+#highscore-page h2 {
+    font-family: cursive;
+    font-size: 50px;
+}
+
+#back-btn {
+    font-family: cursive;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#back-btn:hover {
+    background-color: aquamarine;
+}
+
+#clear-btn {
+    font-family: cursive;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#clear-btn:hover {
+    background-color: aquamarine;
+}
+
+footer {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
 }
