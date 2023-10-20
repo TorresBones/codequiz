@@ -2,17 +2,18 @@
 
 ## Description
 
-Challenge Module 04 - Web APIs. Here I build a web code quiz from scratch using HTML, CSS and Javascript. This project challenged me and took me to another level of coding, afer hours of code I finally make it work and I really feel great with the result. Im having a great time during this bootcamp and I know there is still a lot to come, I hope that you that are reading this have a good time reading and testing my quiz app.
+Challenge Module 04 - Web APIs. This week I built a web code quiz from scratch using HTML, CSS and Javascript. This project made me really research, to not only figure out what the error was but to also fix the error I continued to make. I am not only proud of my work this week but this week I found a new appreciation for the process. I am really enjoying this bootcamp and I know there is still a lot to come. Enjoy testing my quiz app.
 
 ## Usage
 
-For use to use this page all you need to do is press the start quiz button and start to answer the questions, you have to keep in mind that every wrong answer will penalize you deductime 10 seconds from the 60 seconds that you have to answer all 5 questions. At the end the page will give your socre and you will be able to enter your initials and save your score, also you can see all the scores ever save on this page. 
+For you to use this page first, you need to press the start quiz button. Then you begin to answer the questions by clicking on the answer you believe to be correct. Keep in mind that every wrong answer will penalize you and deductime 10 seconds from the 60 second timer that you have to answer all 5 questions. When you answer all 5 questions the page will give you your score. You have the option to save your score by inputing your initials and you also have the ability to see all the scores that were saved by pior users.  
 
 
 ## Screen Captures and Live Link
 
 ![Alt text](image-1.png)
 
+https://torresbones.github.io/codequiz/
 
 ## License
 
